@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+.env
+venv/
+.venv/
+pip-wheel-metadata/
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Web開発関連
+node_modules/
+*.map
+*.lock
+*.tmp
+*.swp
+*.swo
+
+# Frontend build artifacts
+dist/
+build/
+*.bundle.js
+*.min.js
+*.min.css
+
+# その他
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
