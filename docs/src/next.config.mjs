@@ -5,8 +5,8 @@ const isGithubActions = process.env.GITHUB_ACTIONS || false;
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  basePath: '',                      // 空にする
-  assetPrefix: '/haunted-house2025/', // リポジトリ名だけ
+  basePath: '/haunted-house2025',   // ←ここをリポジトリ名に戻す
+  assetPrefix: '/haunted-house2025/',
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
 };
